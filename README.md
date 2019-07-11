@@ -1,6 +1,6 @@
 # system-person
 Simple example, how to use terminal (auth &amp;&amp; connector mysql) with Python
-
+```shell
 ################################### HELLO :) #####################################
 ################################### WELCOME :) ######################################
                                 cipiklevis@gmail.com                                  
@@ -12,6 +12,7 @@ Simple example, how to use terminal (auth &amp;&amp; connector mysql) with Pytho
 #                                                                                   #
 #                                                                                   #
 #####################################################################################
+```
 Use an action:
 1 ) List Persons
 2 ) Insert a Persons

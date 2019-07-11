@@ -10,12 +10,11 @@ if Is_LoggedBefore == False:
     input_user_email = input("Your Email: ")
     print("Nice to meet you " + str(input_user_email))
     input_user_password = input("Insert your pass now: ")
-
+    
     print("Your Data:")
     print("Email:" + str(input_user_email))
     print("Password:" + str(input_user_password))
     print("Proceding to auth ........")
-
     Auth = A.Auth(input_user_email,input_user_password)
 
     is_logged = Auth.isLogged()

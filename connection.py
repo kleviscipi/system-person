@@ -46,7 +46,7 @@ class Connection:
             self.Instancedb.commit()
             print("Success")
         except:
-            print("Something goes wrong")
+            print("Something goes wrong!")
         finally:
             print("Action Create DB End")
         

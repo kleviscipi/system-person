@@ -1,6 +1,7 @@
 import os
 import connection
 
+
 class Auth(connection.Connection):
     def __init__(self, email="", password=""):
         if email and password:
@@ -32,6 +33,7 @@ class Auth(connection.Connection):
             auth_logged_file.close()
         else:
             print("Is not logged")
+            
     def checkAuth(self):
         file_auth = "auth.txt"
         if os.path.exists(file_auth) == False:

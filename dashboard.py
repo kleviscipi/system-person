@@ -2,6 +2,7 @@ import data
 
 class Dashboard(data.Data):
     def start(self,action):
+        
         if action==1:
             self.listPersons()
         elif action == 2:

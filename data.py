@@ -15,7 +15,6 @@ class Data(connection.Connection):
             data.get("email"),
             data.get("job")
         )
-        
         self.Db.execute(sql,values)
         self.Instancedb.commit()
         

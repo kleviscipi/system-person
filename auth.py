@@ -41,7 +41,7 @@ class Auth(connection.Connection):
             return False
         try:
             auth_file       = open("auth.txt")
-            lines           = auth_file.readline(46)
+            lines           = auth_file.readline(47)
             auth_email      = lines.split("(*_*)")[0].split(":")[1]
             auth_password   = lines.split("(*_*)")[1].split(":")[1]
             auth_file.close()

@@ -14,8 +14,8 @@ Simple example, how to use terminal (auth &amp;&amp; connector mysql) with Pytho
 #####################################################################################
 ```
 Use an action:
-1 ) List Persons
-2 ) Insert a Persons
-3 ) Drop Table Persons
-4 ) Create Table Persons
-5 ) List Tables
+*1 ) List Persons
+*2 ) Insert a Persons
+*3 ) Drop Table Persons
+*4 ) Create Table Persons
+*5 ) List Tables

@@ -1,5 +1,13 @@
 # system-person
 Simple example, how to use terminal (auth &amp;&amp; connector mysql) with Python
+
+```shell
+$ python -m pip install mysql-connector
+$ python index.py
+
+```
+
+
 ```shell
 ################################### HELLO :) #####################################
 ################################### WELCOME :) ######################################
